@@ -55,5 +55,39 @@ namespace BibliotecaAPI.Controllers
                 // return StatusCode(400);
             }
         }
+
+        [HttpPut("{id}")]
+        public ActionResult Atualizar(int id, Livro livro)
+        {
+            bool atualizado = _service.Atualizar(id, livro);
+
+            try
+            {
+                if (!atualizado)
+                {
+                    return NotFound("Livro não encontrado.");
+                }
+                return Ok("Livro atualizado com sucesso!");
+                }
+
+            catch (Exception erro)
+            {
+                return BadRequest(erro.Message);
+            }
+            
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult Remover(int id)
+        {
+            bool removido = _service.Remover(id);
+
+            if (!removido)
+            {
+                return NotFound("Livro não encontrado");
+            }
+
+            return NoContent();
+        }
     }
 }

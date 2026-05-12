@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Yt+Fk6yCjo=",
+  "dgSpecHash": "tUBGV4W/TjE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fic\\Desktop\\CSharp-SENAI\\API\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
+  "projectFilePath": "C:\\Users\\fic\\Desktop\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fic\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\fic\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

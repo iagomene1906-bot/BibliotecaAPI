@@ -5,5 +5,19 @@
     "autor": "iago mene",
     "anoPublicacao": 2011,
     "disponivel": true
+  },
+  {
+    "id": 2,
+    "titulo": "Messi",
+    "autor": "Pedro",
+    "anoPublicacao": 2001,
+    "disponivel": true
+  },
+  {
+    "id": 3,
+    "titulo": "GOAT",
+    "autor": "Ronaldo",
+    "anoPublicacao": 2010,
+    "disponivel": true
   }
 ]
