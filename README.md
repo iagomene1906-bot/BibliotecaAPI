@@ -1,2 +1,2 @@
 # BibliotecaAPI
-Repositório destinado a armazenar uma API para bibliotecas
+Sistema de CRUD desenvolvido com ASP.NET, Swagger e JSON.
